@@ -9,12 +9,7 @@ gulp.task("dev", [
     "restore-packages",
     "restore-typings",
     "copy-lib",
-    "compile-ts"], function () {
-    
-    return compileIndexHtml(false).then(function() {
-        shell.exec("node server/server.js", {async: true});
-        open('http://localhost:8080/index.html');
-    });
+	"copy-css"], function () {    
 });
 
 function streamToPromise(stream) {
