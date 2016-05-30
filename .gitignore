@@ -1,0 +1,16 @@
+packages/
+bin/
+debug/
+*.user
+bower_components/
+node_modules/
+.vs
+WebApp/app/**/*.js
+WebApp/app/**/*.js.map
+lib
+/WebApp/styles/ui-grid.css
+/WebApp/styles/ui-grid.ttf
+/WebApp/styles/ui-grid.woff
+/WebApp/main.js
+/WebApp/main.js.map
+typings

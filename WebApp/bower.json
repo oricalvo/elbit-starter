@@ -1,0 +1,30 @@
+{
+  "name": "elbitstarter",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "oricalvo <ori.calvo@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "angular": "^1.5.3",
+    "system.js": "^0.19.29",
+    "plugin-text": "https://github.com/systemjs/plugin-text.git#^0.0.7",
+    "plugin-css": "https://github.com/systemjs/plugin-css.git#^0.1.20",
+    "angular-ui-grid": "^3.1.1"
+  },
+  "resolutions": {
+    "angular": "^1.5.3"
+  }
+}
